@@ -1,0 +1,77 @@
+@import 'variables';
+
+.main-home{
+    text-align: center;
+    color:$light-color;
+    padding:0.5rem 1rem 0.75rem 1rem;
+    display:flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+    .gotti{
+        height:90%;
+        width:75%;
+        padding:0.5rem;
+        display:grid;
+        grid-template-rows:1.3fr 1.6fr 1.3fr;
+
+        .up,
+        .down{
+            display: grid;
+            grid-template-columns: repeat(2,1fr);
+            grid-gap:1.75rem;
+
+            .gotti-sec{
+                background: $light-color;
+                border-radius: 5px;
+                padding:0.5rem;
+                display:flex;
+                justify-content: center;
+                align-items: center;
+
+                .circle-o{
+                    height:2.2rem;
+                    width:2.2rem;
+                    border-radius: 50%;
+                    //background: $col-red;
+                    display: flex;
+                    justify-content: center;
+                    align-items: center;
+
+                    .circle-i{
+                        border:3px solid $light-color;
+                        height:1rem;
+                        width:1rem;
+                        border-radius: 50%;
+                        //background: $col-red;
+                    }
+                }
+            }
+        }
+
+    }          
+}
+
+.tr{
+    border:0.1px solid $light-color;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color:$light-color;
+    font-weight: 400;
+    font-size:1.75rem;
+
+    &.tr-g{
+        background: $col-green;
+    }
+    &.tr-r{
+        background: $col-red; 
+    }
+    &.tr-b{
+        background: $col-blue; 
+    }
+    &.tr-y{
+        background: $col-yellow; 
+    }
+}

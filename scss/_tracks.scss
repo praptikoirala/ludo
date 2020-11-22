@@ -1,0 +1,21 @@
+@import 'variables';
+
+#main-body{
+
+    .board{
+
+        .rg-track,
+        .by-track{
+            display:grid;
+            grid-template-columns: repeat(3,1fr);
+            grid-template-rows:repeat(5,1fr) ;
+        }
+
+        .rb-track,
+        .gy-track{
+            display:grid;
+            grid-template-columns: repeat(5,1fr);
+            grid-template-rows:repeat(3,1fr) ;
+        }
+    }
+}

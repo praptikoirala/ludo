@@ -1,0 +1,25 @@
+@import 'variables';
+@import 'utilities';
+@import 'board';
+@import 'color-home';
+@import 'tracks';
+@import 'ludo-home';
+
+*{
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+}
+
+body{
+    background: $dark-color;
+    font-family: 'Roboto Condensed', sans-serif;
+    overflow:hidden;
+}
+
+/* .container{
+    max-width:1200px;
+    
+    margin:auto;
+    padding:1rem 2rem;
+}*/

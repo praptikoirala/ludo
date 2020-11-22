@@ -1,0 +1,31 @@
+@import 'variables';
+
+#main-body{
+
+    .board{
+
+        .ludo-home{
+            display: flex;
+            align-items: center;
+            justify-content: center;
+
+            .center-home{
+                height:2.5rem;
+                width:2.5rem;
+                border-radius: 6px;
+                background: $light-color;
+                display: flex;
+                align-items: center;
+                justify-content: center;
+
+                .circle{
+                    height:0.5rem;
+                    width:0.5rem;
+                    border-radius:50%;
+                    border:3px solid black;
+                    background:$light-color;
+                }
+            }
+        }
+    }
+}

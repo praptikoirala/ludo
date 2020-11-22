@@ -1,0 +1,265 @@
+.main-home {
+  text-align: center;
+  color: #ffffff;
+  padding: 0.5rem 1rem 0.75rem 1rem;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.main-home .gotti {
+  height: 90%;
+  width: 75%;
+  padding: 0.5rem;
+  display: -ms-grid;
+  display: grid;
+  -ms-grid-rows: 1.3fr 1.6fr 1.3fr;
+      grid-template-rows: 1.3fr 1.6fr 1.3fr;
+}
+
+.main-home .gotti .up,
+.main-home .gotti .down {
+  display: -ms-grid;
+  display: grid;
+  -ms-grid-columns: (1fr)[2];
+      grid-template-columns: repeat(2, 1fr);
+  grid-gap: 1.75rem;
+}
+
+.main-home .gotti .up .gotti-sec,
+.main-home .gotti .down .gotti-sec {
+  background: #ffffff;
+  border-radius: 5px;
+  padding: 0.5rem;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.main-home .gotti .up .gotti-sec .circle-o,
+.main-home .gotti .down .gotti-sec .circle-o {
+  height: 2.2rem;
+  width: 2.2rem;
+  border-radius: 50%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.main-home .gotti .up .gotti-sec .circle-o .circle-i,
+.main-home .gotti .down .gotti-sec .circle-o .circle-i {
+  border: 3px solid #ffffff;
+  height: 1rem;
+  width: 1rem;
+  border-radius: 50%;
+}
+
+.tr {
+  border: 0.1px solid #ffffff;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  color: #ffffff;
+  font-weight: 400;
+  font-size: 1.75rem;
+}
+
+.tr.tr-g {
+  background: #4AB516;
+}
+
+.tr.tr-r {
+  background: #E6101C;
+}
+
+.tr.tr-b {
+  background: #0000F7;
+}
+
+.tr.tr-y {
+  background: #F3BA0C;
+}
+
+#main-body {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  padding-top: 2.5rem;
+}
+
+#main-body .board {
+  height: 80vh;
+  width: 40vw;
+  display: -ms-grid;
+  display: grid;
+  -ms-grid-columns: 2fr 1.3fr 2fr;
+      grid-template-columns: 2fr 1.3fr 2fr;
+  -ms-grid-rows: 2fr 1.5fr 2fr;
+      grid-template-rows: 2fr 1.5fr 2fr;
+}
+
+#main-body .board .red-home {
+  background: #E6101C;
+}
+
+#main-body .board .red-home .gotti .up .gotti-sec .circle-o,
+#main-body .board .red-home .gotti .down .gotti-sec .circle-o {
+  background: #E6101C;
+}
+
+#main-body .board .red-home .gotti .up .gotti-sec .circle-o .circle-i,
+#main-body .board .red-home .gotti .down .gotti-sec .circle-o .circle-i {
+  background: #E6101C;
+}
+
+#main-body .board .green-home {
+  background: #4AB516;
+}
+
+#main-body .board .green-home .gotti .up .gotti-sec .circle-o,
+#main-body .board .green-home .gotti .down .gotti-sec .circle-o {
+  background: #4AB516;
+}
+
+#main-body .board .green-home .gotti .up .gotti-sec .circle-o .circle-i,
+#main-body .board .green-home .gotti .down .gotti-sec .circle-o .circle-i {
+  background: #4AB516;
+}
+
+#main-body .board .blue-home {
+  background: #0000F7;
+}
+
+#main-body .board .blue-home .gotti .up .gotti-sec .circle-o,
+#main-body .board .blue-home .gotti .down .gotti-sec .circle-o {
+  background: #0000F7;
+}
+
+#main-body .board .blue-home .gotti .up .gotti-sec .circle-o .circle-i,
+#main-body .board .blue-home .gotti .down .gotti-sec .circle-o .circle-i {
+  background: #0000F7;
+}
+
+#main-body .board .yellow-home {
+  background: #F3BA0C;
+}
+
+#main-body .board .yellow-home .gotti .up .gotti-sec .circle-o,
+#main-body .board .yellow-home .gotti .down .gotti-sec .circle-o {
+  background: #F3BA0C;
+}
+
+#main-body .board .yellow-home .gotti .up .gotti-sec .circle-o .circle-i,
+#main-body .board .yellow-home .gotti .down .gotti-sec .circle-o .circle-i {
+  background: #F3BA0C;
+}
+
+#main-body .board .rg-track,
+#main-body .board .by-track {
+  display: -ms-grid;
+  display: grid;
+  -ms-grid-columns: (1fr)[3];
+      grid-template-columns: repeat(3, 1fr);
+  -ms-grid-rows: (1fr)[5];
+      grid-template-rows: repeat(5, 1fr);
+}
+
+#main-body .board .rb-track,
+#main-body .board .gy-track {
+  display: -ms-grid;
+  display: grid;
+  -ms-grid-columns: (1fr)[5];
+      grid-template-columns: repeat(5, 1fr);
+  -ms-grid-rows: (1fr)[3];
+      grid-template-rows: repeat(3, 1fr);
+}
+
+#main-body .board .ludo-home {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+#main-body .board .ludo-home .center-home {
+  height: 2.5rem;
+  width: 2.5rem;
+  border-radius: 6px;
+  background: #ffffff;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+#main-body .board .ludo-home .center-home .circle {
+  height: 0.5rem;
+  width: 0.5rem;
+  border-radius: 50%;
+  border: 3px solid black;
+  background: #ffffff;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+body {
+  background: #333333;
+  font-family: 'Roboto Condensed', sans-serif;
+  overflow: hidden;
+}
+
+/* .container{
+    max-width:1200px;
+    
+    margin:auto;
+    padding:1rem 2rem;
+}*/

@@ -1,0 +1,16 @@
+@import 'variables';
+
+#main-body{
+    display:flex;
+    justify-content: center;
+    align-items:center;
+    padding-top:2.5rem;
+
+    .board{
+        height:80vh;
+        width:40vw;
+        display:grid;
+        grid-template-columns: 2fr 1.3fr 2fr;
+        grid-template-rows: 2fr 1.5fr 2fr;
+    }
+}

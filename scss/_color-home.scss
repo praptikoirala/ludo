@@ -1,0 +1,93 @@
+@import 'variables';
+
+#main-body{
+
+    .board{
+
+        .red-home{
+            background: $col-red;
+
+            .gotti{
+
+                .up,
+                .down{
+
+                    .gotti-sec{
+
+                        .circle-o{
+                            background: $col-red;
+
+                            .circle-i{
+                                background: $col-red;
+                            }
+                        }
+                    }
+                }
+            }
+        }
+
+        .green-home{
+            background: $col-green;
+
+            .gotti{
+
+                .up,
+                .down{
+
+                    .gotti-sec{
+
+                        .circle-o{
+                            background: $col-green;
+
+                            .circle-i{
+                                background: $col-green;
+                            }
+                        }
+                    }
+                }
+            }
+        }
+        .blue-home{
+            background: $col-blue;
+
+            .gotti{
+
+                .up,
+                .down{
+
+                    .gotti-sec{
+
+                        .circle-o{
+                            background: $col-blue;
+
+                            .circle-i{
+                                background: $col-blue;
+                            }
+                        }
+                    }
+                }
+            }
+        }
+        .yellow-home{
+            background: $col-yellow;
+
+            .gotti{
+
+                .up,
+                .down{
+
+                    .gotti-sec{
+
+                        .circle-o{
+                            background: $col-yellow;
+
+                            .circle-i{
+                                background: $col-yellow;
+                            }
+                        }
+                    }
+                }
+            }
+        }
+    }
+}
